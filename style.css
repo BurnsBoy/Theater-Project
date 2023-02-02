@@ -1,0 +1,185 @@
+@font-face {
+    font-family: Roboto;
+    src: url(static/Roboto/Roboto-Regular.ttf);
+}
+
+*{
+    font-family: Roboto;
+}
+
+h1{
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 800px;
+    height: 700px;
+    margin: auto;
+    padding-top: 400px;
+    font-size: 100px;
+    font-style: italic;
+}
+
+.banner{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    z-index: -1;
+    position: fixed;
+    margin-top: 15px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+h2{
+    color: white;
+    font-size: 50px;
+    margin: 10px;
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    height: 80px;
+}
+
+.navbar-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+.nav-item{
+    margin: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+.nav-link{
+    font-size: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(223, 182, 0);
+}
+
+.month{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    width: 1000px;
+    margin: auto;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.tile-image{
+    padding-right: 50px;
+}
+
+.tile{
+    margin: auto;
+    width: 50%;
+    display: flex;
+    padding: 30px;
+    flex-direction: row;
+    border-bottom: 2px solid  lightgray;
+    background-color: white;
+}
+
+.tile-lines{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    font-size: 20px;
+}
+.tile-title{
+    font-size: 30px;
+    font-weight: 400;
+}
+.tile-text, .tile-title{
+    padding: 20px;
+}
+
+button{
+    height: 75px;
+    width: 200px;
+    margin: auto;
+    background-color: rgb(255, 210, 0);
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    text-shadow: -1px 1px 2px #000;
+    border-radius: 4px;
+    border: 1px solid gray;
+    box-shadow: -1px 1px 2px #000;
+}
+button:hover{
+    background-color: rgb(223, 182, 0);
+}
+
+.bottom{
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: space-evenly;
+}
+.map{
+    width: 250px;
+    padding: 2%;
+    padding-left: 100px;
+}
+
+.mapimg{
+    width: 350px;
+}
+
+.foot-block{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.foot-head{
+    font-size: 40px;
+    font-style: italic;
+    text-decoration: underline;
+    padding: 20px;
+    font-weight: 900;
+}
+
+.foot-item{
+    font-size: 20px;
+    padding: 20px;
+}
+
+i{
+    color: rgb(255, 210, 0);
+}
